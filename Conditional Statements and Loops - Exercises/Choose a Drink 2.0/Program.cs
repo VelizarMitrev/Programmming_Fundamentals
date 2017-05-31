@@ -4,29 +4,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1.Choose_a_Drink
+namespace Choose_a_Drink_2._0
 {
     class Program
     {
         static void Main(string[] args)
         {
             var profession = Console.ReadLine();
+            var quantity = int.Parse(Console.ReadLine());
+            double profession_price = 0;
 
             if(profession == "Athlete")
             {
-                Console.WriteLine("Water");
+                profession_price = 0.70;
             }else if(profession == "Businessman" || profession == "Businesswoman")
             {
-                Console.WriteLine("Coffee");
+                profession_price = 1;
             }
             else if (profession == "SoftUni Student")
             {
-                Console.WriteLine("Beer");
-            }
-            else
+                profession_price = 1.70;
+            }else
             {
-                Console.WriteLine("Tea");
+                profession_price = 1.20;
             }
+
+            string result = "The " + profession + " has to pay " + $"{profession_price * quantity:F2}" + ".";
+            Console.WriteLine(result);
         }
     }
 }
