@@ -32,31 +32,38 @@ namespace Restaurant_Discount
             }
 
 
-
-
-
-            if (package == "Normal")
+            if (group > 120)
             {
-                final_price = final_price + 500;
-                discount = 0.05;
+                Console.WriteLine("We do not have an appropriate hall.");
             }
-            else if (package == "Gold")
+            else
             {
-                final_price = final_price + 750;
-                discount = 0.10;
+
+
+                if (package == "Normal")
+                {
+                    final_price = final_price + 500;
+                    discount = 0.05;
+                }
+                else if (package == "Gold")
+                {
+                    final_price = final_price + 750;
+                    discount = 0.10;
+                }
+                else if (package == "Platinum")
+                {
+                    final_price = final_price + 1000;
+                    discount = 0.15;
+                }
+
+
+
+                final_price = final_price - (final_price * discount);
+                final_price = final_price / group;
+
+                Console.WriteLine("We can offer you the " + place);
+                Console.WriteLine("The price per person is {0:f2}$", final_price);
             }
-            else if (package == "Platinum")
-            {
-                final_price = final_price + 1000;
-                discount = 0.15;
-            }
-
-            final_price = final_price * discount;
-
-            final_price = final_price / group;
-
-            Console.WriteLine("We can offer you the " + place);
-            Console.WriteLine("The price per person is {0:f2}", final_price);
         }
     }
 }
