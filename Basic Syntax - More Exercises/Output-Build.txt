@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: X, Configuration: Debug Any CPU ------
+1>  X -> E:\programirane\Programming Fundamentals\Programmming_Fundamentals\Basic Syntax - More Exercises\X\bin\Debug\X.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
