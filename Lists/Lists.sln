@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Elements at Odd Positions", "Remove Elements at Odd Positions\Remove Elements at Odd Positions.csproj", "{9302E110-0AE5-44B3-B1B5-C01328B24DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Track Downloader", "Track Downloader\Track Downloader.csproj", "{85011275-AAA2-4B28-8853-C70C53B08CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equal Sum After Extraction", "Equal Sum After Extraction\Equal Sum After Extraction.csproj", "{0C9EC764-346A-49B3-B422-EB46B6395EF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flip List Sides", "Flip List Sides\Flip List Sides.csproj", "{6AEB4BE8-3CAC-4655-9BC5-AB93130DD3F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distinct List", "Distinct List\Distinct List.csproj", "{EE971CCA-58D5-44C3-8E9D-290FABCF365D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integer Insertion", "Integer Insertion\Integer Insertion.csproj", "{507D8B7D-F027-4D5B-881F-C81DE4B0DA95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9302E110-0AE5-44B3-B1B5-C01328B24DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9302E110-0AE5-44B3-B1B5-C01328B24DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9302E110-0AE5-44B3-B1B5-C01328B24DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9302E110-0AE5-44B3-B1B5-C01328B24DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85011275-AAA2-4B28-8853-C70C53B08CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85011275-AAA2-4B28-8853-C70C53B08CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85011275-AAA2-4B28-8853-C70C53B08CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85011275-AAA2-4B28-8853-C70C53B08CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9EC764-346A-49B3-B422-EB46B6395EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9EC764-346A-49B3-B422-EB46B6395EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9EC764-346A-49B3-B422-EB46B6395EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9EC764-346A-49B3-B422-EB46B6395EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEB4BE8-3CAC-4655-9BC5-AB93130DD3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEB4BE8-3CAC-4655-9BC5-AB93130DD3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEB4BE8-3CAC-4655-9BC5-AB93130DD3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEB4BE8-3CAC-4655-9BC5-AB93130DD3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE971CCA-58D5-44C3-8E9D-290FABCF365D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE971CCA-58D5-44C3-8E9D-290FABCF365D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE971CCA-58D5-44C3-8E9D-290FABCF365D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE971CCA-58D5-44C3-8E9D-290FABCF365D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{507D8B7D-F027-4D5B-881F-C81DE4B0DA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507D8B7D-F027-4D5B-881F-C81DE4B0DA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507D8B7D-F027-4D5B-881F-C81DE4B0DA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507D8B7D-F027-4D5B-881F-C81DE4B0DA95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
