@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letter Repetition", "Letter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixed Phones", "Mixed Phones\Mixed Phones.csproj", "{E6BFE812-4496-474E-92E1-8A92A9509566}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam Shopping", "Exam Shopping\Exam Shopping.csproj", "{E662E6B1-AD67-4430-950E-9036C607DA57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My Own Account Test", "My Own Password Test\My Own Account Test.csproj", "{F257508B-2D1D-45B2-81A4-B61F31E4F21A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{E6BFE812-4496-474E-92E1-8A92A9509566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6BFE812-4496-474E-92E1-8A92A9509566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6BFE812-4496-474E-92E1-8A92A9509566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E662E6B1-AD67-4430-950E-9036C607DA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E662E6B1-AD67-4430-950E-9036C607DA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E662E6B1-AD67-4430-950E-9036C607DA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E662E6B1-AD67-4430-950E-9036C607DA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F257508B-2D1D-45B2-81A4-B61F31E4F21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F257508B-2D1D-45B2-81A4-B61F31E4F21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F257508B-2D1D-45B2-81A4-B61F31E4F21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F257508B-2D1D-45B2-81A4-B61F31E4F21A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

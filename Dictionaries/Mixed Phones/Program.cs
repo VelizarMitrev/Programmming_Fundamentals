@@ -10,25 +10,23 @@ namespace _3.Mixed_Phones
     {
         static void Main(string[] args)
         {
-            var inputLine = Console.ReadLine()
-                .Split(' ');
+            var inputLine = Console.ReadLine().Split(' ');
 
-            var resultDictionary = new SortedDictionary<string, int>();
+            var resultDictionary = new SortedDictionary<string, long>();
 
             while (inputLine[0].ToLower() != "over")
             {
-                int intResult = 0;
-                if (int.TryParse(inputLine[0], out intResult))
+                long longResult = 0;
+                if (long.TryParse(inputLine[0], out longResult))
                 {
-                    resultDictionary[inputLine[2]] = intResult;
+                    resultDictionary[inputLine[2]] = longResult;
                 }
-                else if (int.TryParse(inputLine[2], out intResult))
+                else if (long.TryParse(inputLine[2], out longResult))
                 {
-                    resultDictionary[inputLine[0]] = intResult;
+                    resultDictionary[inputLine[0]] = longResult;
                 }
 
-                inputLine = Console.ReadLine()
-                    .Split(' ');
+                inputLine = Console.ReadLine().Split(' ');
             }
 
 
